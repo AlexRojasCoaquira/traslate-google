@@ -1,6 +1,6 @@
 import { type FC } from 'react';
 import { SUPPORTED_LANGUAGES } from '../constants';
-import { type Language, type FromLanguage } from '../types';
+import { type Language, type FromLanguage } from '../types.d';
 import { SectionType } from '../types.d';
 import { AUTO_LANGUAGE } from '../constants';
 
