@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { type FromLanguage, type Language } from '../types';
+import { type FromLanguage, type Language } from '../types.d';
 import { SUPPORTED_LANGUAGES } from '../constants';
 
 const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
